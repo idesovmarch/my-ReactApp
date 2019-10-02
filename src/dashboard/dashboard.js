@@ -13,17 +13,12 @@ import Login from './components/loginFields';
   pkce: true
 }*/
 
-function App() {
+function Dashboard() {
   return (
    
-    <div className="App">
+    <div className="Dashbaord">
       <header className="App-header">
-      {/*<Router>
-        <Security {...config}>
-          <Route path='/' exact={true} component={Home}/>
-          <Route path='/implicit/callback' component={ImplicitCallback}/>
-        </Security>
-      </Router>*/}
+      
       <link
   rel="stylesheet"
   href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -31,7 +26,7 @@ function App() {
   crossorigin="anonymous"
 />
 
-        <Logo/>
+        
         <Login/>
         
         
@@ -40,4 +35,4 @@ function App() {
   );
 }
 
-export default App;
+export default Dashboard;
